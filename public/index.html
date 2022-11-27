@@ -26,6 +26,31 @@
     <title>Fields of May</title>
 </head>
 
+<style>
+    
+/* blur by defult */
+.fairVision.ExcellentVision{
+  filter: blur(0px);
+  opacity: 1;
+  z-index: 100 !important; 
+}
+.fairVision.goodVision{
+  filter: blur(6px);
+  opacity: .7;
+  z-index: 100 !important; 
+}
+.fairVision.fairVision{
+  filter: blur(13px);
+  opacity: .7;
+  z-index: 100 !important; 
+}
+.fairVision.poorVision{
+  filter: blur(18px);
+  z-index: 100 !important;
+  opacity: .7;
+}
+</style>
+
 
 <body>
 
@@ -71,7 +96,7 @@
                 <div class="column">
                         <div class=" livetextmobile ">
                                     <!-- class="valueStatemobilehome" -->
-                                    <span class="fairVision">Fields <br/> of <br/> May</span>
+                                    <span class="fairVision" id = "valueStatemobilehome">Fields <br/> of <br/> May</span>
                         </div>
                 </div>
 
@@ -234,7 +259,7 @@
                             <div class="nppost">
                                 <div class="livetext">
                                     <!-- class="valueState" -->
-                                    <span class="fairVision">Fields of May</span>
+                                    <span class="fairVision" id = "fairVision">Fields of May</span>
                                 </div>
                             </div>
                         </div>
@@ -381,11 +406,105 @@ async function getData() {
         div2.innerHTML +=data.data[1];
         div3.innerHTML +=data.data[0];      
         div4.innerHTML +=data.data[1];    
-}
 
-      
+
+        let value = parseFloat(data.data[1]); 
+            console.log('value===>',value) 
+          
+				if (value > 0 && value <= 2) {
+                  
+                document.getElementById("fairVision").style.filter = "blur(0px)";
+                document.getElementById("fairVision").style.opacity = "1";
+                document.getElementById("fairVision").style.zIndex  = "100 !important";
+               
+                document.querySelector("link[rel=apple-touch-icon]").setAttribute("href", "Excellent.ico") 
+				} else if (value > 2.0 && value <= 2.5) {  
+                 document.getElementById("fairVision").style.filter = "blur(6px)";
+                 document.getElementById("fairVision").style.opacity = "0.7";
+                 document.getElementById("fairVision").style.zIndex  = "100 !important";
+               
+                document.querySelector("link[rel=apple-touch-icon]").setAttribute("href", "Good.ico")  
+				} else if (value > 2.6 && value <= 5.8) {
+                 document.getElementById("fairVision").style.filter = "blur(13px)";
+                 document.getElementById("fairVision").style.opacity = "0.7";
+                 document.getElementById("fairVision").style.zIndex  = "100 !important";
+               
+                document.querySelector("link[rel=apple-touch-icon]").setAttribute("href", "Fair.ico")   
+				} else if (value > 5.9) {
+                 document.getElementById("fairVision").style.filter = "blur(18px)";
+                 document.getElementById("fairVision").style.opacity = "0.7";
+                 document.getElementById("fairVision").style.zIndex  = "100 !important";
+               
+                document.querySelector("link[rel=apple-touch-icon]").setAttribute("href", "Poor.ico")    
+				} 
+				if (value > 0 && value <= 2) {
+                  document.getElementById("valueStatemobilehome").style.filter = "blur(0px)";
+                 document.getElementById("valueStatemobilehome").style.opacity = "1";
+                 document.getElementById("valueStatemobilehome").style.fontSize  = "30vw";
+                 document.getElementById("valueStatemobilehome").style.textAlign  = "center";
+                 document.getElementById("valueStatemobilehome").style.fontFamily  = "PicNic";
+                 document.getElementById("valueStatemobilehome").style.justifyContent  = "center";
+                 document.getElementById("valueStatemobilehome").style.width  = "100vw";
+                 document.getElementById("valueStatemobilehome").style.left  = "50%";
+                 document.getElementById("valueStatemobilehome").style.top  = "51%";
+                 document.getElementById("valueStatemobilehome").style.transform  = "translate(-50%, -50%)%";
+                 document.getElementById("valueStatemobilehome").style.position  = "absolute";
+                 document.getElementById("valueStatemobilehome").style.pointerEvents  = "none";
+
+                  document.querySelector("link[rel=apple-touch-icon]").setAttribute("href", "Excellent.ico")    
+ 
+ 
+				 
+				} else if (value > 2.0 && value <= 2.5) {				 
+                  document.getElementById("valueStatemobilehome").style.filter = "blur(4px)"; 
+
+                  document.querySelector("link[rel=apple-touch-icon]").setAttribute("href", "Good.ico")    
+
+				} else if (value > 2.6 && value <= 5.8) { 
+                 document.getElementById("valueStatemobilehome").style.filter = "blur(8px)";
+                 document.getElementById("valueStatemobilehome").style.opacity = "0.7";
+                 document.getElementById("valueStatemobilehome").style.fontSize  = "30vw";
+                 document.getElementById("valueStatemobilehome").style.textAlign  = "center";
+                 document.getElementById("valueStatemobilehome").style.fontFamily  = "PicNic";
+                 document.getElementById("valueStatemobilehome").style.justifyContent  = "center";
+                 document.getElementById("valueStatemobilehome").style.maxWidth  = "90vw";
+                 document.getElementById("valueStatemobilehome").style.left  = "50%";
+                 document.getElementById("valueStatemobilehome").style.top  = "51%";
+                 document.getElementById("valueStatemobilehome").style.lineHeight  = "8rem";
+                 document.getElementById("valueStatemobilehome").style.transform  = "translate(-50%, -50%)%";
+                 document.getElementById("valueStatemobilehome").style.position  = "absolute";
+                 document.getElementById("valueStatemobilehome").style.pointerEvents  = "none";
+
+                  document.querySelector("link[rel=apple-touch-icon]").setAttribute("href", "Fair.ico")     
+					 
+				} else if (value > 5.9) {
+ 
+
+					setValueStatemobilehome(styles.poorVisionmobilehome);
+                     document.getElementById("valueStatemobilehome").style.filter = "blur(15px)";
+                 document.getElementById("valueStatemobilehome").style.opacity = "0.7";
+                 document.getElementById("valueStatemobilehome").style.fontSize  = "30vw";
+                 document.getElementById("valueStatemobilehome").style.textAlign  = "center";
+                 document.getElementById("valueStatemobilehome").style.fontFamily  = "PicNic";
+                 document.getElementById("valueStatemobilehome").style.justifyContent  = "center";
+                 document.getElementById("valueStatemobilehome").style.width  = "100vw";
+                 document.getElementById("valueStatemobilehome").style.left  = "50%";
+                 document.getElementById("valueStatemobilehome").style.top  = "51%";
+                 document.getElementById("valueStatemobilehome").style.lineHeight  = "8rem";
+                 document.getElementById("valueStatemobilehome").style.transform  = "translate(-50%, -50%)%";
+                 document.getElementById("valueStatemobilehome").style.position  = "absolute";
+                 document.getElementById("valueStatemobilehome").style.pointerEvents  = "none";
+
+                  document.querySelector("link[rel=apple-touch-icon]").setAttribute("href", "Poor.ico")     
+				 
+				}
+
+
+} 
  
 getData();
 </script>
 
 </html>
+
+ 
