@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fields of May" />
+    <!-- <link rel="icon" href={faviconState}/>
+    <link rel="apple-touch-icon" href={faviconState}/> -->
+    <link rel="apple-touch-icon" href="Fair.ico"/>
+    <link rel="icon" href="Fair.ico" type="image/x-icon" />
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </link>
+
+
+    <link rel="stylesheet" href="styles/ws-in-seili.css" />
+    <!-- JavaScript Bundle with Popper -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script> -->
+    <title>Witness Seminar in Seili</title>
+</head>
+
+
+<body>
+    <!-- <div id="mydiv"></div>
+    <script type="text/babel">
+          function Hello() {
+            return <h1>Hello World!</h1>;
+          }
+    
+          ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+        </script> -->
+
+    <!-- {/* ----------------------------------------------------------------Mobile  */} -->
+    <div class=" containermobile ">
+
+        <main class=" mainmobile ">
+
+            <!-- {/* <section class=" gradientTop "></section> */} -->
+
+
+            <section>
+                <div class="popupmobile">
+
+                    <div class="columnmobile">
+
+
+                        <div class=" mobile-container ">
+                            <!-- Top Navigation Menu -->
+                            <div class="topnav">
+                                <a href="./" class="active">Fields of May</a>
+                                <a href="./" class="active"></a>
+                                <div id="myLinks">
+                                    <a href="./about.html">About </a>
+                                    <a href="./witness-seminar-in-seili.html#accordion1">Witness Seminar in Seili</a>
+                                    <a href="./comingsoon.html">A Witness Seminar How-To</a>
+                                </div>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                  
+
+
+
+                    <div class="FixedHeightContainermobile">
+                        <div class="Contentmobile">
+                            <!-- <p class=" subtitlemobiletop ">Fields of May</p> -->
+
+                            <div class="accordion">
+                                <!-- span to target fix closing accordion -->
+                                <span class="target-fix" id="accordion"></span>
+                                 
+                                <!-- First Accoridon Option -->
+                                <div>
+                                    <!-- span to target fix accordion -->
+                                    <span class="target-fix" id="accordion1"></span>
+                                    
+                                    <!-- Link to open accordion, hidden when open --> 
+                                    <a href="#accordion1" id="open-accordion1" title="open">Fields of May</a>
+                                    
+                                    <!-- Link to close accordion, hidden when closed -->
+                                    <a href="#accordion" id="close-accordion1" title="close">Fields of May</a> 
+                                     
+                                    <!-- Accorion content goes in this div -->
+                                    <div class="accordion-content">
+                                        <div class=" imgmobile ">
+                                            <Image class=" imgmobile " src="/assets/images/m_FieldsOfMay_01.jpg" alt="m_FieldsOfMay_00.jpg" />
+                                        </div>
+                                        <div class=" contentparagraphmobile ">
+            
+            
+                                            <p>
+            
+                                                Beached on the island of Seili, the salvaged masts of the 19th century Sigyn trade barque chair Fields of May; a witness seminar in which artists and scientists examine how critical raw materials coalesce in the archipelago, creating an archive of testimonies addressing the impact of the blue economy.
+            
+            The first witness seminar took place in May 2022 to discuss potential more-than-human legal ecologies from the perspective of the island of Seili, the research undertaken there by the Archipelago Research Institute, and artists which have been attentive to the island and its layered ecologies. 
+            </p>
+            
+                                            <p>
+                                                A Witness Seminar is a format in which people with a specialised interest around a topic, issue of concern, or an event, gather and verbally exchange, discuss, and debate with the aim of advancing critical dialogue on the matter of address. During a seminar, participants are invited to speak from their position of situated knowledge and experience, as a means to initiate and stimulate discussion. These conversations are often chaired and recorded. The seminar transcript becomes an archival source for future use that emphasises the capacities of interdisciplinary collaboration and embodied practice. Though witness seminars have often situated themselves in contradistinction to oral history. FRAUD proposes a re-interpretation that welcomes constituencies outside academia as specialists in their own right, and integrates oral history as an affirmative grounding force, while manoeuvring the legitimacy conferred through the archival form. 
+                                            </p>
+                                            <p>
+                                                In this case, the witness seminar in Seili s chaired by the former masts which comprise Fields of May (pictured above), its material specificity and history guide the discussion, together with the wind sock.                                </p>
+                                                <p>
+                                                    The following describes the contextualisation of the event. The event’s documented conversations will soon be available as a PDF.                                    </p>
+                                       
+                                                    
+                                                    
+                                    
+                                            </div>
+            
+                                    </div>
+                                </div>       
+                            </div>
+                   
+
+                            <div class="accordion2">
+                                <!-- span to target fix closing accordion -->
+                                <span class="target-fix" id="accordion2"></span>
+                                 
+                                <!-- First Accoridon Option -->
+                                <div>
+                                    <!-- span to target fix accordion -->
+                                    <span class="target-fix" id="accordion11"></span>
+                                    
+                                    <!-- Link to open accordion, hidden when open --> 
+                                    <a href="#accordion11" id="open-accordion11" title="open">A witness seminar in context</a>
+                                    
+                                    <!-- Link to close accordion, hidden when closed -->
+                                    <a href="#accordion2" id="close-accordion11" title="close">A witness seminar in context</a> 
+                                    
+                                    <!-- Accorion content goes in this div -->
+                                    <div class="accordion2-content">
+                                        <div class=" imgmobile ">
+                                            <Image class=" imgmobile " src="/assets/images/m_FieldsOfMay_02.jpg" alt="m_FieldsOfMay_01.jpg" />
+                                        </div>
+                                        <div class=" contentparagraphmobile ">
+
+                                            <!-- <p><b>A witness seminar in context</b></p> -->
+                                                                            <p>
+                                                                                Fields of May takes as a point of departure a salvaged 19th century barque. 
+                                                                                Its former masts act as a structure to chair witness seminars and events to discuss the convergence of critical raw materials in the archipelago, specifically in relation to Seili.                                         </p>
+                                                                            <p>
+                                                                                Islands have been considered as microcosms, worlds in themselves, yet the perceived boundary between land and sea is a porous one. 
+                                                                                The archipelagos close to the earth's poles are joined in the winter by the icy cover of the water's surface, frozen highways running across oceans and seas. 
+                                                                                Seili is also positioned next to a well-travelled route, where trade ships once passed (including the Sigyn), now mostly populated by cruise ships which double up as cargo transport. 
+                                                                            </p>
+                                                                            <p>
+                                                                                These gargantuan ships trace the global entanglements of extraction. The ships carrying containers of phosphate rich industrial fertiliser glide along the Baltic. Once it is delivered, the phosphate run-off from agricultural land in turn contributes to the sea's eutrophication. 
+                                                                                It too cannot breathe. The seabed is choking. Shrinking plankton and fish are adapting to this stifling environment.
+                                                                                 For several decades the Archipelago Research Institute in Seili has been measuring the shrinking Herring and tracing its relationship to the morphing plankton, namely due to changes in salinity and eutrophication. 
+                                                                                  <!-- <a href="#footer"><span class="link">1</span> </a>  -->
+                                                                                  <a><span class="link">1</span> </a> 
+                                                                                 </p>
+
+                                                                                 
+                                                                        
+                                                                                <p>
+                                                                                    Fisheries worldwide are in danger, more than 70% are overfished according to the latest widely cited AHO report. Fish are counted and traded like stock, commodities like phosphate and carbon. 
+                                                                                    Fisheries are becoming a critical raw material. This new material propels the blue economy, together with deep-sea carbon capture.                                     </p>
+                                                                        
+                                                                                    <p>
+                                                                                        Despite the forestry ministry of Finland affirming that its industry constitutes a positive carbon sink, the country's primary industry contributes to the Baltic's eutrophication. 
+                                                                                        Carbon too has become a material, abstracted from its material condition of production as well as its paramount social and environmental relations, to be traded and offset.                                          </p>
+                                                                                        <p>
+                                                                                            All the while, as the ferries and cargo ships navigate through the archipelago, they carefully circumvent armament zones, designated by the colour purple on the seaman's map. 
+                                                                                            No-go zones where the cold war's weapons were dumped. The eutrophic strata bear witness to Soviet disarmament. 
+                                                                                            As such phosphate, carbon, and fisheries coalesce in Seili and gesture towards the inter-relationships of wider ecologies of extraction.                                             </p>
+                                                                                            <p>
+                                                                                                With that said, as much as they look outwards, islands also look inwards, and as such have been misunderstood as ideal sites for penal colonies and other such unwanted. 
+                                                                                                The Swedish monarchy chose Seili (Själö) to first isolate lepers, and later became a sanitorium for ‘unruly’ women, many of whom died on the island. 
+                                                                                                Once those institutions were closed, the Archipelago Research Institute repurposed the buildings, namely used to dissect the herring. The forestry ministry also used the island for its own experiments.
+                                                                                                 These histories imbued in the island are leaking through the Baltic's stratified seabed, rich with phosphate, carbon and fossilised fish. Can we attune to these layers to formulate post-extractive futures?  </p>
+                                                                                        <p id="footer" class="footnotemobile">  See overview of research themes, projects and publications here: <a class="footnotelink" href="https://sites.utu.fi/herringproject/ongoing-research/">https://sites.utu.fi/herringproject/ongoing-research/</a></p>
+                                                                                            </div>
+            
+                                    </div>
+                                </div>       
+                            </div>
+
+
+                            
+
+
+                               
+                      
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+    </div>
+    </section>
+
+
+    </main>
+    </div>
+
+
+
+
+
+
+    <!-- {/* ----------------------------------------------------------------Browser  */} -->
+
+    <div class=" container ">
+        <!-- <BrowserView> -->
+
+        <main class=" main ">
+
+
+            <section class=" centeredElements ">
+
+
+                <div id="tooltip" class=" cursorimg ">
+                    <Image src="/assets/images/Fish.png" alt="Herring Fish" width="100px" height="25px" />
+                </div>
+
+
+                <div class="subMenu">
+                    <a href="./" class=" linkTop">Fields of May</a>
+
+                    <a href="./witness-seminar-in-seili.html" class="linkTop1">Witness Seminar in Seili</a>
+
+
+                    <a class="linkTop2 " href=" ./comingsoon.html">A Witness Seminar
+                        How-To</a>
+                    <a class="linkTop3" href=" ./about.html">About</a>
+                </div>
+            
+
+
+                <div class=" content ">
+
+                    <div class=" contentwrapper ">
+                        <!-- {/* <div class=" backlink ">
+                            <div><a href="./">
+                                    Back
+                                </a></div>
+
+                        </div> */} -->
+
+
+                        <!-- <p class=" titlewitness ">Fields of May</p> -->
+
+                        <div class=" seminarimage ">
+                             <Image src="/assets/images/b_FieldsOfMay_00.jpg" alt="Placeholder Image"  />
+                        </div>
+
+
+
+
+
+                        <ul class="list">
+                            <li class="list-item">
+                              <div class="list-content">
+                                <p>
+                                    Beached on the island of Seili, the salvaged masts of the 19th century Sigyn trade barque chair Fields of May; a witness seminar in which artists and scientists examine how critical raw materials coalesce in the archipelago, creating an archive of testimonies addressing the impact of the blue economy.
+    
+    The first witness seminar took place in May 2022 to discuss potential more-than-human legal ecologies from the perspective of the island of Seili, the research undertaken there by the Archipelago Research Institute, and artists which have been attentive to the island and its layered ecologies. 
+    
+    A Witness Seminar is a format in which people with a specialised interest around a topic, issue of concern, or an event, gather and verbally exchange, discuss, and debate with the aim of advancing critical dialogue on the matter of address. During a seminar, participants are invited to speak from their position of situated knowledge and experience, as a means to initiate and stimulate discussion. These conversations are often chaired and recorded. The seminar transcript becomes an archival source for future use that emphasises the capacities of interdisciplinary collaboration and embodied practice. Though witness seminars have often situated themselves in contradistinction to oral history.  <a class="link" href="https://www.instagram.com/la_fraud/">FRAUD</a> proposes a re-interpretation that welcomes constituencies outside academia as specialists in their own right, and integrates oral history as an affirmative grounding force, while manoeuvring the legitimacy conferred through the archival form. 
+    
+                                </p>
+                                                          </div>
+                            </li>
+                              
+                               <li class="list-item">
+                              <div class="list-content">
+                                <p>
+                                    In this case, the witness seminar in Seili s chaired by the former masts which comprise Fields of May (pictured above), its material specificity and history guide the discussion, together with the wind sock.
+    
+    The following describes the contextualisation of the event. The event’s documented conversations will soon be available as a PDF.
+    
+                                </p>
+                                                          </div>
+                            </li>
+                            
+                          </ul>
+
+
+
+
+                          <div class=" seminarimage ">
+                            <Image src="/assets/images/b_FieldsOfMay_01.jpg" alt="Placeholder Image"  />
+                        </div>
+                        <div class=" contentparagraphtitle ">
+                            <p>A witness seminar in context</p>
+                        </div>
+
+
+                          <ul class="list">
+                            <li class="list-item">
+                              <div class="list-content">
+                                <p>
+                                
+                                    Fields of May takes as a point of departure a salvaged 19th century barque. Its former masts act as a structure to chair witness seminars and events to discuss the convergence of critical raw materials in the archipelago, specifically in relation to Seili. 
+                                    
+                                    Islands have been considered as microcosms, worlds in themselves, yet the perceived boundary between land and sea is a porous one. The archipelagos close to the earth's poles are joined in the winter by the icy cover of the water's surface, frozen highways running across oceans and seas. Seili is also positioned next to a well-travelled route, where trade ships once passed (including the Sigyn), now mostly populated by cruise ships which double up as cargo transport. 
+                                    
+                                </p>
+                                <br>
+                                <p>
+                                    These gargantuan ships trace the global entanglements of extraction. The ships carrying containers of phosphate rich industrial fertiliser glide along the Baltic. Once it is delivered, the phosphate run-off from agricultural land in turn contributes to the sea's eutrophication. It too cannot breathe. The seabed is choking. Shrinking plankton and fish are adapting to this stifling environment. For several decades the Archipelago Research Institute in Seili has been measuring the shrinking Herring and tracing its relationship to the morphing plankton, namely due to changes in salinity and eutrophication.<a href="#footnotedesktop"><span class="link">1</span> </a>
+    
+                                    Fisheries worldwide are in danger, more than 70% are overfished according to the latest widely cited AHO report. Fish are counted and traded like stock, commodities like phosphate and carbon. Fisheries are becoming a critical raw material. This new material propels the blue economy, together with deep-sea carbon capture. 
+                                    
+                                    Despite the forestry ministry of Finland affirming that its industry constitutes a positive carbon sink, the country's primary industry contributes to the Baltic's eutrophication. Carbon too has become a material, abstracted from its material condition of production as well as its paramount social and environmental relations, to be traded and offset.  
+                                    
+                                </p>
+                                                          </div>
+                            </li>
+                              
+                             
+
+                            <li class="list-item">
+                                <div class="list-content">
+                                    <p>
+                                        All the while, as the ferries and cargo ships navigate through the archipelago, they carefully circumvent armament zones, designated by the colour purple on the seaman's map. No-go zones where the cold war's weapons were dumped. The eutrophic strata bear witness to Soviet disarmament. As such phosphate, carbon, and fisheries coalesce in Seili and gesture towards the inter-relationships of wider ecologies of extraction. 
+        
+                                        With that said, as much as they look outwards, islands also look inwards, and as such have been misunderstood as ideal sites for penal colonies and other                                 such unwanted. The Swedish monarchy chose Seili (Själö) to first isolate lepers, and later became a sanitorium for ‘unruly’ women, many of whom died on the island. Once those institutions were closed, the Archipelago Research Institute repurposed the buildings, namely used to dissect the herring. The forestry ministry also used the island for its own experiments. These histories imbued in the island are leaking through the Baltic's stratified seabed, rich with phosphate, carbon and fossilised fish. Can we attune to these layers to formulate post-extractive futures? 
+                                    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          
+                    <div class="fishall">
+                        <div class="fishContainer">
+                                <figure class="textcenter">
+                                            <div class="nppost">
+                                                <Image src="/assets/images/Fish.png" alt="Herring Fish 19XW" width="100px" height="25px" />
+                                            </div>
+                                            <figcaption><b>16cm</b><br>Average Baltic herring size in 2000</figcaption>
+                                  </figure>
+                            </div>
+                        <!-- {/* -------fish 2 */} -->
+                        <div class="fishContainer2">
+                                <figure class="textcenter">
+                                <div class="nppostt">
+                                            <Image src="/assets/images/Fish.png" alt="Herring Fish 19XX" width="110px"
+                                            height="30px" />
+                                </div>
+                                <figcaption><b>19cm</b><br>Average Baltic herring size in 1990
+                                </figcaption>
+                            </figure>
+
+                        </div>
+                        <div class="fishContainer3">
+                            <figure class="textcenter">
+                                <div class="npposttt">
+                                        <Image src="/assets/images/Fish.png" alt="Herring Fish 19XX" width="140px"
+                                            height="35px" />
+                                </div>
+    
+                                <figcaption><b>21cm </b><br> Average Baltic herring size in 1985 
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                                </div>
+
+
+                                
+                              </li>
+                            
+
+
+                          </ul>
+
+
+
+                        <div id="footnotedesktop" class=" contentparagraph ">
+                            <p class="footnote">  See overview of research themes, projects and publications here: <a class="link" href="/https://sites.utu.fi/herringproject/ongoing-research/">https://sites.utu.fi/herringproject/ongoing-research/</a></p>
+                        </div>
+                       
+                    </div>
+
+                </div>
+            </div>
+            </section>
+
+      
+            <!-- {/*---------------------------- horizontal gradient ----------- */} -->
+            <section class=" gradientTop "></section>
+        </main>
+
+        <!-- </BrowserView> -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Load React. -->
+    <!-- <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script> -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+    <!-- <script src="assets/shared.js"></script>
+    <script src="assets/simulation.js"></script>
+    <script src="assets/ui.js"></script>
+    <script src="assets/waves.js"></script> -->
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
